@@ -1,0 +1,29 @@
+<div class="row" ng-hide="clearance._id">
+  <div class="col-md-6">
+      <h2>Add clearance</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <p>
+      <label>User Agent (required)</label>
+      <input id="useragent" class="form-control" type="text" ng-model="clearance.userAgent" required>
+    </p>
+    <p>
+      <label>Cookies (required)</label>
+      <input id="cookies" class="form-control" type="text" ng-model="clearance.cookies" required>
+    </p>
+    <p>
+      <label>API Key (required)</label>
+      <input id="key" class="form-control" type="text" ng-model="clearance.key" required>
+    </p>
+    <p>
+      <label>Label (optional)</label>
+      <input id="label" class="form-control" type="text" ng-model="clearance.label">
+    </p>
+    <p>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="saveClearance(clearance)">Save</button>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="back()">Back</button>
+    </p>
+  </div>
+</div>

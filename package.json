@@ -1,0 +1,32 @@
+{
+  "name": "CloudHoleAPI",
+  "version": "1.0.0",
+  "description": "CloudHole API to allow users to manage and sync CloudFlare cookies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scakemyer/cloudhole-api.git"
+  },
+  "keywords": [
+    "CloudHole",
+    "CloudFlare"
+  ],
+  "author": "scakemyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scakemyer/cloudhole-api/issues"
+  },
+  "homepage": "https://github.com/scakemyer/cloudhole-api",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jsonfile": "^2.2.3",
+    "lodash": "^4.6.1",
+    "node-uuid": "^1.4.7",
+    "surge": "^0.17.7"
+  }
+}
