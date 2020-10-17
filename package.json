@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scakemyer/cloudhole-api.git"
+    "url": "https://github.com/karnage1313/cloudhole-api.git"
   },
   "keywords": [
     "CloudHole",
@@ -18,9 +18,9 @@
   "author": "scakemyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scakemyer/cloudhole-api/issues"
+    "url": "https://github.com/karnage1313/cloudhole-api/issues"
   },
-  "homepage": "https://github.com/scakemyer/cloudhole-api",
+  "homepage": "https://github.com/karnage1313/cloudhole-api",
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",

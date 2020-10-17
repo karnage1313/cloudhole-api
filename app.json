@@ -1,7 +1,7 @@
 {
   "name": "CloudHole API",
   "description": "CloudHole API to allow users to manage and sync CloudFlare cookies.",
-  "repository": "https://github.com/scakemyer/cloudhole-api",
+  "repository": "https://github.com/karnage1313/cloudhole-api",
   "logo": "https://addons.cdn.mozilla.net/user-media/addon_icons/690/690814-64.png",
   "keywords": ["node", "express", "angular", "REST", "API"]
 }
